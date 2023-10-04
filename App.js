@@ -38,7 +38,7 @@ export default function App() {
             headerShadowVisible:false,
           }} />
           
-         <Stack.Screen name="My Notes" component={HomeUi} options={{
+         <Stack.Screen name="My All Notes" component={HomeUi} options={{
             headerTitleStyle: {
               fontWeight: "bold",
               color:"black",
