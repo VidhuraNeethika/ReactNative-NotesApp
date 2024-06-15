@@ -121,7 +121,7 @@ export function NewNoteUi({ navigation }) {
   }
 
   function noteList() {
-    navigation.navigate("My Notes");
+    navigation.navigate("My All Notes");
   }
 }
 

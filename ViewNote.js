@@ -107,7 +107,7 @@ export function ViewNoteUi({ navigation ,route}) {
         if (text == "Success") {
 
           clearFields(getTitle,getDescription);
-          navigation.navigate("My Notes")
+          navigation.navigate("My All Notes")
           
         } else {
           Alert.alert("Warning", text);
@@ -135,7 +135,7 @@ export function ViewNoteUi({ navigation ,route}) {
           if (text == "Success") {
   
             clearFields(getTitle,getDescription);
-            navigation.navigate("My Notes")
+            navigation.navigate("My All Notes")
             
           } else {
             Alert.alert("Warning", text);

@@ -22,7 +22,7 @@ export function SignInUi({ navigation }) {
     const asyncStore = await AsyncStorage.getItem("mobile");
 
     if (asyncStore != null) {
-      navigation.navigate("My Notes");
+      navigation.navigate("My All Notes");
     }
   }
 
@@ -110,7 +110,7 @@ export function SignInUi({ navigation }) {
 
           saveData();
 
-          navigation.navigate("My Notes");
+          navigation.navigate("My All Notes");
         } else {
           Alert.alert("Warning", text);
         }

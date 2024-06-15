@@ -23,7 +23,7 @@ export function SignUpUi({ navigation }) {
     const asyncStore = await AsyncStorage.getItem("mobile");
 
     if(asyncStore!=null){
-      navigation.navigate("My Notes");
+      navigation.navigate("My All Notes");
     }
 
   }
